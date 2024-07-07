@@ -8,6 +8,7 @@ This repository contains AVR C code to drive a common anode 7-segment display us
 - Common anode 7-segment display
 - Breadboard and jumper wires
 
+
 ## Circuit Diagram
 
 Include a simple diagram or schematic of how the 7-segment display is connected to the AVR microcontroller.
