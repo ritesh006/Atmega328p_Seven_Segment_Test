@@ -1,9 +1,8 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-
-//ARUDINO PIN used 2 to 8 
-//ATMEGE328p PIN used from PD2 TO PD7 and B0 
+// ARUDINO PIN used 2 to 8
+// ATMEGE328p PIN used from PD2 TO PD7 and B0
 
 // Define port addresses for direct port manipulation
 #define SEG_A_MASK (1 << PD2)
@@ -12,7 +11,7 @@
 #define SEG_D_MASK (1 << PD5)
 #define SEG_E_MASK (1 << PD6)
 #define SEG_F_MASK (1 << PD7)
-#define SEG_G_MASK (1 << PB0) //B0
+#define SEG_G_MASK (1 << PB0) // B0
 
 // Array to store the segment masks for each segment pin
 uint8_t segmentMasks[] = {SEG_A_MASK, SEG_B_MASK, SEG_C_MASK, SEG_D_MASK, SEG_E_MASK, SEG_F_MASK, SEG_G_MASK};
